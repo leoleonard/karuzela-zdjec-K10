@@ -4,6 +4,7 @@
 
 #carousel ul {
   width: 2000px;
+  height: 100vh;
   display: flex;
   flex-flow: row;
   justify-content: center;
