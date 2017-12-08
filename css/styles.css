@@ -1,11 +1,19 @@
-.container {
-text-align: center;
+#carousel {
+    overflow: hidden;
 }
 
-p {
-  margin: 25px;
+#carousel ul {
+  width: 2000px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-button {
-  margin-left: 5px;
+#carousel ul li {
+  width: 400px;
+  height: 400px;
+  list-style: none;
+  float: none;
 }
