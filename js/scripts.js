@@ -1,13 +1,15 @@
-$(document).ready(function(){
-  var carouselList = $("#carousel ul");
-  var t = setInterval(function(){
-    carouselList.animate({marginLeft:-400}, 500, function(){
 
+$(document).ready(function(){
+
+  var carouselList = $("#carousel ul");
+
+  setInterval(function(){
+    carouselList.animate({marginLeft:-400}, 500, function(){
       var firstItem = carouselList.find("li:first");
       var lastItem = carouselList.find("li:last");
 
-      $(lasttItem).after($(firstItem));
+      $(lastItem).after($(firstItem));
       carouselList.css({marginLeft:0});
     })
-  },;
+  },2000);
 });
