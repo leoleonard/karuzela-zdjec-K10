@@ -1,21 +1,9 @@
-#carousel {
-    overflow: hidden;
-
+body {
+  background-color: grey;
 }
 
-#carousel ul {
-  width: 2000px;
-  height: 100vh;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-#carousel ul li {
+.multiple-items {
+  margin: 100px auto;
   width: 400px;
-  height: 400px;
-  list-style: none;
-  float: none;
 }
